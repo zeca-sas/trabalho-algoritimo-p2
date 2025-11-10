@@ -7,5 +7,7 @@ def bubble_sort(arr):
     return arr
 
 # Compara pares de elementos e troca se estiverem fora de ordem.
-# Vantagens: simples de entender.
-# Desvantagens: um dos mais lentos (O(n²)).
+# Vantagens: prático de usar
+# Desvantagens: não é eficais em grandes codigos
+
+
