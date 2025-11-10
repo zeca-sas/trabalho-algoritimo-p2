@@ -8,11 +8,12 @@ def quick_sort(lista):
         return lista
     else:
         pivo = lista[0]
-        print(lista[0])
+    
         menores = [x for x in lista[1:] if x <= pivo]
         maiores = [x for x in lista[1:] if x > pivo]
         return quick_sort(menores) + [pivo] + quick_sort(maiores)
     
 
 ordenada = quick_sort(numeros)
+
 print(ordenada)
